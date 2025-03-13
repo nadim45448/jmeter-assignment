@@ -35,7 +35,7 @@ This project includes two main tasks:
   ## How to Run the Tests
   ## Booking API Tests
   1. Clone the Repository:
-     - git clone https://github.com/<your-username>/performance-testing.git  
+     - git clone https://github.com/nadim45448/jmeter-assignment 
   2. Run the Load Test and Generate HTML report
      - Execute the booking.jmx file using JMeter:  
        - jmeter -n -t booking.jmx -l booking.jtl -e -o Reports
