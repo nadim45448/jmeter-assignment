@@ -1,12 +1,13 @@
 # JMeter Performance Testing for Booking and DMoney APIs
 
-### This project contains JMeter test plans and resources for performance testing of the Booking API and functional testing of the DMoney API. The tests include load and stress testing for the Booking API and transaction-based testing for the dMoney API.
+#### This project contains JMeter test plans and resources for performance testing of the Booking API and functional testing of the DMoney API. The tests include load and stress testing for the Booking API and transaction-based testing for the DMoney API.
 
 ## Table of Contents
 1. Overview
-2. prerequisites
-3. How to Run the Tests
-4. Results and Reports
+2.  Tools and Technologies I have used
+3. prerequisites
+4. How to Run the Tests
+5. Results and Reports
 
 ## Overview
 This project includes two main tasks:
@@ -18,6 +19,12 @@ This project includes two main tasks:
    - Simulate transactions such as deposits, money transfers, and payments using CSV data.
    - Validate all transactions using assertions.
    - Generate an HTML report for the test results.
+  
+## Tools and Technologies I have used:
+   - Postman
+   - JMeter
+   - Git and GitHub
+   - Excel
 
   ## Prerequisites
    Before running the tests, ensure you have the following installed:
@@ -34,38 +41,40 @@ This project includes two main tasks:
   
   ## How to Run the Tests
   ## Booking API Tests
-  1. Clone the Repository:
-     - git clone https://github.com/nadim45448/jmeter-assignment 
-  2. Run the Load Test and Generate HTML report
-     - Execute the booking.jmx file using JMeter:  
-       - jmeter -n -t booking.jmx -l booking.jtl -e -o Reports
+  1. Clone the Repository: 
+   ``` git clone https://github.com/nadim45448/jmeter-assignment ```
+  3. Run the Load Test and Generate HTML report
+     - Execute the booking.jmx file using JMeter:
+      ``` jmeter -n -t booking.jmx -l booking.jtl -e -o Reports ```       
      - Replace -l booking.jtl with the desired output file name.
-
-  3. Open the index.html file in the ReportS/ folder to view the results.
-  4. Stress rest:
+  4. Open the index.html file in the Reports/ folder to view the results.
+  5. Stress rest:
      - Follow the same steps as the load test but adjust the number of threads/users in the Thread Group.
     
   ## DMoney API Test:
   1. Run the Test Plan and Generate HTML Report
-     - Execute the dmoney.jmx file using JMeter
-       - jmeter -n -t dmoney.jmx -l dmoney.jtl -e -o Reports
-  2.   Open the index.html file in the Re[port/ folder to view the results.
+     - Execute the dmoney.jmx file using JMeter: 
+      ``` jmeter -n -t dmoney.jmx -l dmoney.jtl -e -o Reports ```
+  2.   Open the index.html file in the Reports/ folder to view the results.
 
 ## Results and Reports
 ## Booking API
-  - Load Test Request Summary and Statistics
+  - **Load Test Requests Summary and Statistics**<br>
    ![image](https://github.com/user-attachments/assets/66dd1c40-6ff8-4cf2-b65a-f71218df753d)
-  - Load Test Report
-   ![image](https://github.com/user-attachments/assets/f1be0506-d2d1-45e6-b248-26a19ba48b64)
 
-  - Stress Test Request Summary and Statistics
+  - **Load Test Report**<br>
+   ![image](https://github.com/user-attachments/assets/f1be0506-d2d1-45e6-b248-26a19ba48b64)
+   
+  - **Stress Test Requests Summary and Statistics**<br>
     ![image](https://github.com/user-attachments/assets/dde3ed72-f577-435d-ac51-5c2cebd841cd)
 
-  - Stress Test Report
-  - ![image](https://github.com/user-attachments/assets/34ad24a2-983b-42e5-9247-8804a1df9571)
-  - Booking-API-Test-report: https://docs.google.com/spreadsheets/d/13FlXgoEg1emIJRHJocIbhRUfDzg6O5d_/edit?usp=sharing&ouid=118234770235921726287&rtpof=true&sd=true
+  - **Stress Test Report**<br>
+   ![image](https://github.com/user-attachments/assets/34ad24a2-983b-42e5-9247-8804a1df9571)
+
+  - **Booking-API-Test-Report:** [Click here](https://docs.google.com/spreadsheets/d/13FlXgoEg1emIJRHJocIbhRUfDzg6O5d_/edit?usp=sharing&ouid=118234770235921726287&rtpof=true&sd=true)
+
 ## DMoney API
-  - Request Summary and Statistics
+  - **Requests Summary and Statistics**<br>
     ![image](https://github.com/user-attachments/assets/9e0faf5f-d827-41b3-b246-b36f61797fa9)
 
 
