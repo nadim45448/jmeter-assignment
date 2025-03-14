@@ -26,7 +26,7 @@ This project includes two main tasks:
    - Git and GitHub
    - Excel
 
-  ## Prerequisites
+## Prerequisites
    Before running the tests, ensure you have the following installed:
    1. JMeetr:
       - download and install Apache jMeter from https://jmeter.apache.org/ .
@@ -39,8 +39,8 @@ This project includes two main tasks:
    4. CSV Files:
        - The CSV files (deposit.csv, sendmoney.csv, payment.csv ) are prepopulated with sample data. Modify them as needed for your tests.
   
-  ## How to Run the Tests
-  ## Booking API Tests
+  ## How to Run the Tests<br>
+   **Booking API Tests**
   1. Clone the Repository: 
    ``` git clone https://github.com/nadim45448/jmeter-assignment ```
   3. Run the Load Test and Generate HTML report
@@ -51,14 +51,14 @@ This project includes two main tasks:
   5. Stress rest:
      - Follow the same steps as the load test but adjust the number of threads/users in the Thread Group.
     
-  ## DMoney API Test:
+  **DMoney API Test:**
   1. Run the Test Plan and Generate HTML Report
      - Execute the dmoney.jmx file using JMeter: 
       ``` jmeter -n -t dmoney.jmx -l dmoney.jtl -e -o Reports ```
   2.   Open the index.html file in the Reports/ folder to view the results.
 
 ## Results and Reports
-## Booking API
+ **Booking API**
   - **Load Test Requests Summary and Statistics**<br>
    ![image](https://github.com/user-attachments/assets/66dd1c40-6ff8-4cf2-b65a-f71218df753d)
 
@@ -74,7 +74,7 @@ This project includes two main tasks:
   - 📊 **<a href="https://docs.google.com/spreadsheets/d/13FlXgoEg1emIJRHJocIbhRUfDzg6O5d_/edit?usp=sharing" target="_blank" style="color: blue; text-decoration: none;">View Booking API Test Report</a>**
 
 
-## DMoney API
+ **DMoney API**
   - **Requests Summary and Statistics**<br>
     ![image](https://github.com/user-attachments/assets/9e0faf5f-d827-41b3-b246-b36f61797fa9)
 
