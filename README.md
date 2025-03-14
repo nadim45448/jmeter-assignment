@@ -4,8 +4,8 @@
 
 ## Table of Contents
 1. Overview
-2.  Tools and Technologies I have used
-3. prerequisites
+2. Tools and Technologies I have used
+3. Prerequisites
 4. How to Run the Tests
 5. Results and Reports
 
