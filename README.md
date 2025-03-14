@@ -71,7 +71,8 @@ This project includes two main tasks:
   - **Stress Test Report**<br>
    ![image](https://github.com/user-attachments/assets/34ad24a2-983b-42e5-9247-8804a1df9571)
 
-  - **Booking-API-Test-Report:** [Click here](https://docs.google.com/spreadsheets/d/13FlXgoEg1emIJRHJocIbhRUfDzg6O5d_/edit?usp=sharing&ouid=118234770235921726287&rtpof=true&sd=true)
+  - 📊 **<a href="https://docs.google.com/spreadsheets/d/13FlXgoEg1emIJRHJocIbhRUfDzg6O5d_/edit?usp=sharing" target="_blank" style="color: blue; text-decoration: none;">View Booking API Test Report</a>**
+
 
 ## DMoney API
   - **Requests Summary and Statistics**<br>
