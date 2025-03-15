@@ -60,16 +60,16 @@ This project includes two main tasks:
 ## Results and Reports
  **Booking API**
   - **Load Test Requests Summary and Statistics**<br>
-   ![image](https://github.com/user-attachments/assets/66dd1c40-6ff8-4cf2-b65a-f71218df753d)
+   ![image](https://github.com/user-attachments/assets/fd1a5fb8-e1fb-4577-9ac5-74c26076bfd3)
 
   - **Load Test Report**<br>
-   ![image](https://github.com/user-attachments/assets/f1be0506-d2d1-45e6-b248-26a19ba48b64)
-   
+    ![image](https://github.com/user-attachments/assets/74fcf2a0-9cf6-4496-bd0a-0c23fe8b3ce4)
+
   - **Stress Test Requests Summary and Statistics**<br>
     ![image](https://github.com/user-attachments/assets/dde3ed72-f577-435d-ac51-5c2cebd841cd)
 
   - **Stress Test Report**<br>
-   ![image](https://github.com/user-attachments/assets/e7f9ef22-8471-4ddf-a450-77c8b335aece)
+    ![image](https://github.com/user-attachments/assets/1e651f33-9ee7-4494-9334-dfcb6652b452)
 
   -  📊 **<a href="https://docs.google.com/spreadsheets/d/1RiA5yVRphnd3qsqWbvW6EX1ufnGRy2g9/edit?usp=drive_link&ouid=118234770235921726287&rtpof=true&sd=true" target="_blank" style="color: blue; text-decoration: none;">View Booking API Test Report</a>**
 
