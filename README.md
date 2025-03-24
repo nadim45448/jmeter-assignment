@@ -11,14 +11,26 @@
 
 ## Overview
 This project includes two main tasks:
-1. Booking API Performance Testing:
+1. Booking API Performance Testing (https://restful-booker.herokuapp.com):
    - Perform load and stress testing on the booking API.
-   - Simulate 120,000 users over a 12-hour period performing login, create booking, and search booking operations.
+   - Simulate 120,000 users over a 12-hour period performing login(/auth), create booking(/booking), and search booking operations(/booking/<booking_id&gt)
    - Generate HTML reports and Excel summaries for both load and stress test
-2. DMoney API Functional Testing:
-   - Simulate transactions such as deposits, money transfers, and payments using CSV data.
+   - Parameters:
+        - Users: 12000
+        - Time: 12 Hours
+        - Error Threshold: 0.5%
+        - Timer: Gaussian Random Timer (Deviation 2000ms, Constant delay 500ms)
+     
+2. DMoney API Functional Testing (http://dmoney.roadtocareer.net):
+   - Simulate transactions such as deposits(/transaction/deposit), money transfers(/transaction/sendmoney), and payments(/transaction/payment) using CSV data.
    - Validate all transactions using assertions.
    - Generate an HTML report for the test results.
+   - Scenario:
+        - 5 agents perform deposits for 10 customers,
+        - 5 customers send money to another 10 customers,
+        - 5 customers make payments to 2 merchants.
+   - Parameters:
+        - Ramp-Up time: 120 seconds.
   
 ## Tools and Technologies I have used:
    - Postman
